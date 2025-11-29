@@ -1,0 +1,28 @@
+[project]
+name = "raiffeisen-agentic-ai-training"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "docstring-parser>=0.17.0",
+    "fastapi>=0.122.0",
+    "ipykernel>=7.1.0",
+    "ipywidgets>=8.1.8",
+    "llama-index>=0.14.8",
+    "llama-index-embeddings-azure-openai>=0.4.1",
+    "llama-index-llms-azure-openai>=0.4.2",
+    "markdown>=3.10",
+    "openai>=2.8.1",
+    "pdf2image>=1.17.0",
+    "pydantic>=2.12.5",
+    "pypdfium2>=5.1.0",
+    "python-dotenv>=1.2.1",
+    "python-multipart>=0.0.20",
+    "qrcode>=8.2",
+    "requests>=2.32.5",
+    "seaborn>=0.13.2",
+    "sqlalchemy>=2.0.44",
+    "tavily-python>=0.7.13",
+    "textstat>=0.7.11",
+]
