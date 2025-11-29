@@ -1,0 +1,648 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "data",
+  "dataset_name": "financial-news-multisource",
+  "dataset_size": 57377866646,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/all_the_news_2/all_the_news_2.000.parquet": {
+      "num_bytes": 927694506,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/all_the_news_2/all_the_news_2.001.parquet": {
+      "num_bytes": 927797076,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/all_the_news_2/all_the_news_2.002.parquet": {
+      "num_bytes": 1120972423,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/all_the_news_2/all_the_news_2.003.parquet": {
+      "num_bytes": 937524403,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/american_news_jonasbecker/american_news_jonasbecker.000.parquet": {
+      "num_bytes": 1049846726,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/benzinga_6000stocks/benzinga_6000stocks.000.parquet": {
+      "num_bytes": 43621309,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/benzinga_6000stocks/benzinga_6000stocks.001.parquet": {
+      "num_bytes": 56213847,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/benzinga_6000stocks/benzinga_6000stocks.002.parquet": {
+      "num_bytes": 61679735,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/benzinga_6000stocks/benzinga_6000stocks.003.parquet": {
+      "num_bytes": 8688707,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/bloomberg_reuters/bloomberg_reuters.000.parquet": {
+      "num_bytes": 38534230,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/bloomberg_reuters/bloomberg_reuters.001.parquet": {
+      "num_bytes": 39981354,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/bloomberg_reuters/bloomberg_reuters.002.parquet": {
+      "num_bytes": 42462837,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/bloomberg_reuters/bloomberg_reuters.003.parquet": {
+      "num_bytes": 43027426,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/bloomberg_reuters/bloomberg_reuters.004.parquet": {
+      "num_bytes": 46491960,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/bloomberg_reuters/bloomberg_reuters.005.parquet": {
+      "num_bytes": 114413843,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/bloomberg_reuters/bloomberg_reuters.006.parquet": {
+      "num_bytes": 69036026,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/bloomberg_reuters/bloomberg_reuters.007.parquet": {
+      "num_bytes": 41214281,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/bloomberg_reuters/bloomberg_reuters.008.parquet": {
+      "num_bytes": 97615959,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/bloomberg_reuters/bloomberg_reuters.009.parquet": {
+      "num_bytes": 137950679,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/bloomberg_reuters/bloomberg_reuters.010.parquet": {
+      "num_bytes": 153242611,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/bloomberg_reuters/bloomberg_reuters.011.parquet": {
+      "num_bytes": 189064183,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/bloomberg_reuters/bloomberg_reuters.012.parquet": {
+      "num_bytes": 122857726,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/bloomberg_reuters/bloomberg_reuters.013.parquet": {
+      "num_bytes": 51107656,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/bloomberg_reuters/bloomberg_reuters.014.parquet": {
+      "num_bytes": 50540183,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/bloomberg_reuters/bloomberg_reuters.015.parquet": {
+      "num_bytes": 49581201,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/bloomberg_reuters/bloomberg_reuters.016.parquet": {
+      "num_bytes": 17077234,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/cnbc_headlines/cnbc_headlines.000.parquet": {
+      "num_bytes": 1161400,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/djia_stock_headlines/djia_stock_headlines.000.parquet": {
+      "num_bytes": 8405996,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/finsen_us_2007_2023/finsen_us_2007_2023.000.parquet": {
+      "num_bytes": 3959038,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.000.parquet": {
+      "num_bytes": 51426323,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.001.parquet": {
+      "num_bytes": 51820838,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.002.parquet": {
+      "num_bytes": 148051455,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.003.parquet": {
+      "num_bytes": 662991433,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.004.parquet": {
+      "num_bytes": 287906943,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.005.parquet": {
+      "num_bytes": 46320654,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.006.parquet": {
+      "num_bytes": 46450241,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.007.parquet": {
+      "num_bytes": 46479767,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.008.parquet": {
+      "num_bytes": 38949063,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.009.parquet": {
+      "num_bytes": 38076075,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.010.parquet": {
+      "num_bytes": 38080761,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.011.parquet": {
+      "num_bytes": 38326091,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.012.parquet": {
+      "num_bytes": 38157806,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.013.parquet": {
+      "num_bytes": 37944070,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.014.parquet": {
+      "num_bytes": 38082490,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.015.parquet": {
+      "num_bytes": 38527740,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.016.parquet": {
+      "num_bytes": 38189722,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.017.parquet": {
+      "num_bytes": 38591120,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.018.parquet": {
+      "num_bytes": 38576610,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.019.parquet": {
+      "num_bytes": 37946170,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.020.parquet": {
+      "num_bytes": 38139023,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.021.parquet": {
+      "num_bytes": 38362543,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.022.parquet": {
+      "num_bytes": 38236095,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.023.parquet": {
+      "num_bytes": 38270175,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.024.parquet": {
+      "num_bytes": 38483888,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.025.parquet": {
+      "num_bytes": 721228198,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.026.parquet": {
+      "num_bytes": 103691612,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.027.parquet": {
+      "num_bytes": 1117754330,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.028.parquet": {
+      "num_bytes": 1091862078,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.029.parquet": {
+      "num_bytes": 1083377526,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.030.parquet": {
+      "num_bytes": 1097851730,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.031.parquet": {
+      "num_bytes": 1051492924,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.032.parquet": {
+      "num_bytes": 51405127,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.033.parquet": {
+      "num_bytes": 51821800,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.034.parquet": {
+      "num_bytes": 157504058,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.035.parquet": {
+      "num_bytes": 663562478,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.036.parquet": {
+      "num_bytes": 277818891,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.037.parquet": {
+      "num_bytes": 46313575,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.038.parquet": {
+      "num_bytes": 46358598,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.039.parquet": {
+      "num_bytes": 46561975,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.040.parquet": {
+      "num_bytes": 38806413,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.041.parquet": {
+      "num_bytes": 38121319,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.042.parquet": {
+      "num_bytes": 38032430,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.043.parquet": {
+      "num_bytes": 38256552,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.044.parquet": {
+      "num_bytes": 38198427,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.045.parquet": {
+      "num_bytes": 37874742,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.046.parquet": {
+      "num_bytes": 38050473,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.047.parquet": {
+      "num_bytes": 38539152,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.048.parquet": {
+      "num_bytes": 38068741,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.049.parquet": {
+      "num_bytes": 38617858,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.050.parquet": {
+      "num_bytes": 38542062,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.051.parquet": {
+      "num_bytes": 37950707,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.052.parquet": {
+      "num_bytes": 38109069,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.053.parquet": {
+      "num_bytes": 38409735,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.054.parquet": {
+      "num_bytes": 38218075,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.055.parquet": {
+      "num_bytes": 38394390,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.056.parquet": {
+      "num_bytes": 38327478,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.057.parquet": {
+      "num_bytes": 736240976,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/fnspid_news/fnspid_news.058.parquet": {
+      "num_bytes": 88168403,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/frontpage_news/frontpage_news.000.parquet": {
+      "num_bytes": 97605258,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/frontpage_news/frontpage_news.001.parquet": {
+      "num_bytes": 97758169,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/frontpage_news/frontpage_news.002.parquet": {
+      "num_bytes": 99394135,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/frontpage_news/frontpage_news.003.parquet": {
+      "num_bytes": 100594737,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/frontpage_news/frontpage_news.004.parquet": {
+      "num_bytes": 100608333,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/frontpage_news/frontpage_news.005.parquet": {
+      "num_bytes": 104151661,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/frontpage_news/frontpage_news.006.parquet": {
+      "num_bytes": 106206509,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/frontpage_news/frontpage_news.007.parquet": {
+      "num_bytes": 104600159,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/frontpage_news/frontpage_news.008.parquet": {
+      "num_bytes": 103287235,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/frontpage_news/frontpage_news.009.parquet": {
+      "num_bytes": 104095348,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/gold_news_kaggle/gold_news_kaggle.000.parquet": {
+      "num_bytes": 1036880,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/headlines_10sites_2007_2022/headlines_10sites_2007_2022.000.parquet": {
+      "num_bytes": 36593849,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/headlines_10sites_2007_2022/headlines_10sites_2007_2022.001.parquet": {
+      "num_bytes": 44291763,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/headlines_10sites_2007_2022/headlines_10sites_2007_2022.002.parquet": {
+      "num_bytes": 49907144,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/headlines_10sites_2007_2022/headlines_10sites_2007_2022.003.parquet": {
+      "num_bytes": 51153970,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/headlines_10sites_2007_2022/headlines_10sites_2007_2022.004.parquet": {
+      "num_bytes": 52816796,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/headlines_10sites_2007_2022/headlines_10sites_2007_2022.005.parquet": {
+      "num_bytes": 55552007,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/headlines_10sites_2007_2022/headlines_10sites_2007_2022.006.parquet": {
+      "num_bytes": 58975523,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/headlines_10sites_2007_2022/headlines_10sites_2007_2022.007.parquet": {
+      "num_bytes": 57158324,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/headlines_10sites_2007_2022/headlines_10sites_2007_2022.008.parquet": {
+      "num_bytes": 46689281,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/huffpost_news/huffpost_news.000.parquet": {
+      "num_bytes": 48218338,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/mind_news_2019/mind_news_2019.000.parquet": {
+      "num_bytes": 29819204,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/nyt_articles_2000_present/nyt_articles_2000_present.000.parquet": {
+      "num_bytes": 193867357,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/nyt_articles_2000_present/nyt_articles_2000_present.001.parquet": {
+      "num_bytes": 180065921,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/nyt_articles_2000_present/nyt_articles_2000_present.002.parquet": {
+      "num_bytes": 122291600,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/nyt_articles_2000_present/nyt_articles_2000_present.003.parquet": {
+      "num_bytes": 143164637,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/nyt_articles_2000_present/nyt_articles_2000_present.004.parquet": {
+      "num_bytes": 51522251,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/nyt_headlines_1990_2020/nyt_headlines_1990_2020.000.parquet": {
+      "num_bytes": 46410322,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/nyt_headlines_1990_2020/nyt_headlines_1990_2020.001.parquet": {
+      "num_bytes": 46830284,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/nyt_headlines_1990_2020/nyt_headlines_1990_2020.002.parquet": {
+      "num_bytes": 47248842,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/nyt_headlines_1990_2020/nyt_headlines_1990_2020.003.parquet": {
+      "num_bytes": 40158378,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/nyt_headlines_1990_2020/nyt_headlines_1990_2020.004.parquet": {
+      "num_bytes": 52246055,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/nyt_headlines_1990_2020/nyt_headlines_1990_2020.005.parquet": {
+      "num_bytes": 31967977,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/nyt_headlines_2010_2021/nyt_headlines_2010_2021.000.parquet": {
+      "num_bytes": 154250861,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/nyt_headlines_2010_2021/nyt_headlines_2010_2021.001.parquet": {
+      "num_bytes": 30724002,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/reddit_finance_sp500/reddit_finance_sp500.000.parquet": {
+      "num_bytes": 106332464,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/reddit_worldnews_2008_2016/reddit_worldnews_2008_2016.000.parquet": {
+      "num_bytes": 6214193,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/sentarl_combined/sentarl_combined.000.parquet": {
+      "num_bytes": 64865649,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/sp500_daily_headlines/sp500_daily_headlines.000.parquet": {
+      "num_bytes": 935058,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/us_financial_news_2018_jeet/us_financial_news_2018_jeet.000.parquet": {
+      "num_bytes": 459378076,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/wikinews_articles/wikinews_articles.000.parquet": {
+      "num_bytes": 29056746,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/yahoo_finance_articles/yahoo_finance_articles.000.parquet": {
+      "num_bytes": 446029236,
+      "checksum": null
+    },
+    "hf://datasets/Brianferrell787/financial-news-multisource@2a2e8f5c97a2034236514c4e516a85007bc85f63/data/yahoo_finance_felixdrinkall/yahoo_finance_felixdrinkall.000.parquet": {
+      "num_bytes": 78403864,
+      "checksum": null
+    }
+  },
+  "download_size": 21410161949,
+  "features": {
+    "date": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "extra_fields": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 78788028595,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 57377866646,
+      "num_examples": 57114479,
+      "shard_lengths": [
+        148000,
+        152000,
+        148000,
+        152000,
+        149000,
+        146000,
+        149000,
+        123000,
+        121000,
+        124000,
+        130000,
+        128000,
+        134000,
+        159000,
+        81976,
+        82000,
+        60000,
+        48000,
+        895552,
+        881363,
+        994000,
+        979000,
+        768000,
+        865000,
+        757000,
+        617000,
+        543000,
+        517000,
+        924000,
+        968000,
+        1184682,
+        999995,
+        500000,
+        1499999,
+        1500000,
+        1500000,
+        1500000,
+        1500000,
+        1500000,
+        1500000,
+        516399,
+        508018,
+        507434,
+        488537,
+        521939,
+        1015187,
+        999995,
+        500000,
+        1499999,
+        1500000,
+        1500000,
+        1500000,
+        1500000,
+        1500000,
+        1500000,
+        580299,
+        777000,
+        767000,
+        763000,
+        744000,
+        750000,
+        761354,
+        886000,
+        868000,
+        849000,
+        825000,
+        822000,
+        644433,
+        513000,
+        683000,
+        649000,
+        1119632,
+        1257000,
+        878355,
+        493315,
+        329460,
+        157000,
+        118344,
+        115000,
+        78212
+      ],
+      "dataset_name": "financial-news-multisource"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
