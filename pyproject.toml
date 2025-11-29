@@ -23,6 +23,7 @@ dependencies = [
     "python-multipart>=0.0.20",
     "qrcode>=8.2",
     "requests>=2.32.5",
+    "ruff>=0.14.7",
     "seaborn>=0.13.2",
     "sentence-transformers>=5.1.2",
     "smolagents>=1.23.0",
