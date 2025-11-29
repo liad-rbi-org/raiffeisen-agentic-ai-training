@@ -1,0 +1,15 @@
+pandas
+numpy
+nltk
+scikit-learn
+
+hf_xet
+faiss-cpu
+datasets
+huggingface_hub
+sentence_transformers
+openai
+
+smolagents
+"smolagents[toolkit]"
+wikipedia-api
