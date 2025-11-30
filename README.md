@@ -47,3 +47,17 @@ Here is how it should look like in your folder:
 Under the `notebooks` folder, you will find the notebooks with the exercises that we will be using during the workshop.
 
 Under `data` are the datasets that we will use, as well as the images and pdfs given as examples.
+
+## References
+
+Throughout the workshop, we will be using the following datasets:
+- [FinanceBench: A New Benchmark for Financial Question Answering](https://github.com/patronus-ai/financebench)
+- https://huggingface.co/datasets/llmware/rag_instruct_test_dataset2_financial_0.1
+
+Agentic Frameworks:
+- [Awesome-LLM-Resources-List](https://github.com/ilsilfverskiold/Awesome-LLM-Resources-List/blob/main/README.md#os-agenticai-workflow)
+Out of which, we mentioned:
+- https://flowiseai.com/
+- https://github.com/microsoft/semantic-kernel
+- https://www.crewai.com/open-source
+- llamaindex
