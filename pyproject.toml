@@ -8,6 +8,7 @@ dependencies = [
     "bm25s>=0.2.14",
     "datasets>=4.4.1",
     "docstring-parser>=0.17.0",
+    "faiss-cpu>=1.13.0",
     "fastapi>=0.122.0",
     "ipykernel>=7.1.0",
     "ipywidgets>=8.1.8",
