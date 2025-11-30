@@ -44,6 +44,6 @@ Here is how it should look like in your folder:
 
 ## Folder Structure
 
-Under the `notebooks` folder, you will find the exercises notebooks that we will be using during the workshop.
+Under the `notebooks` folder, you will find the notebooks with the exercises that we will be using during the workshop.
 
-Under `data` are datasets that we will use, as well as images and pdfs for examples.
+Under `data` are the datasets that we will use, as well as the images and pdfs given as examples.
