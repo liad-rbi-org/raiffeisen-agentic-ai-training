@@ -24,7 +24,7 @@ git clone <project path>
 uv sync
 ```
 
-If everythins is installed properly, let's continue to setting up the Azure API keys.
+If everything is installed properly, let's continue to setting up the Azure API keys.
 
 ## IDE
 We're using [Visual Studio Code](https://code.visualstudio.com/), but feel free to use your favorite IDE.
