@@ -8,14 +8,14 @@ This project is intended to be used for the Agentic AI for Finance Training Week
 git clone <project path>
 ```
 
-2. This project is using [uv](https://docs.astral.sh/uv/) as a replacement to the traditional `pip install ...`. It creates an segragaded project environment and ensures you have the same package versions.  
+2. This project is using [uv](https://docs.astral.sh/uv/) as a replacement to the traditional `pip install ...`. It creates an segregated project environment and ensures you have the same package versions.  
 [Install uv](https://docs.astral.sh/uv/getting-started/installation/) on your computer - based on your operating system.  
     #### Linux:
     ```bash
     curl -LsSf https://astral.sh/uv/install.sh | sh
     ```
     #### Windows:
-    ```poweshell
+    ```powershell
     powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
     ```
 
