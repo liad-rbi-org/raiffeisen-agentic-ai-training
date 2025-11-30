@@ -1,7 +1,7 @@
 [project]
 name = "raiffeisen-agentic-ai-training"
 version = "0.1.0"
-description = "Add your description here"
+description = "Baseline project for the Agentic RAG Workshop of the Raiffeisen Bank & MSCA"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -31,3 +31,30 @@ dependencies = [
     "tavily-python>=0.7.13",
     "textstat>=0.7.11",
 ]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+docstring-code-format = true
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "F",   # pyflakes
+    "I",   # isort
+    "D",   # pydocstyle (docstrings)
+]
+ignore = [
+    # Google convention prefers summary on the first line; these are commonly disabled:
+    "D203", # one-blank-line-before-class (conflicts with D211)
+    "D213", # multi-line-summary-second-line
+    "D104", # Missing docstring in public package
+    "E501", # Line too long
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
